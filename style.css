@@ -20,14 +20,8 @@ body {
     display: none;
 }
 
-#page1 {
-    width: 100vw;
-    height: 140vh;
-    background-color: #F6F3EA;
-    display: flex;
-}
 
-#nav {
+#nav{
     width: 100%;
     height: 10vh;
     background-color: #F4F1E8;
@@ -64,17 +58,20 @@ body {
 #nav #dogi:hover {
     top: 80%;
     opacity: 1;
-
 }
 
 #nav button {
-    width: 140px;
+    width: 8vw;
     height: 50px;
     background-color:#C8102E;
     border: none;
     color: white;
     font-size: 20px;
     font-family: Druk;
+    cursor: pointer;
+}
+#nav button :hover{
+    background-color:black;
 }
 
 #bottle{
@@ -85,6 +82,12 @@ body {
     z-index: 99;
     height: 90vh;
     position: fixed;
+}
+#page1 {
+    width: 100vw;
+    height: 140vh;
+    background-color: #F6F3EA;
+    display: flex;
 }
 
 #page1 #left {
@@ -98,6 +101,7 @@ body {
 }
 
 #page1 #right {
+    position: relative;
     width: 50%;
     height: 100%;
     /* background-color: #F6F3EA; */
@@ -148,22 +152,27 @@ body {
     font-family: gilroy;
     font-weight: 500;
     color: rgb(14, 13, 13);
-    opacity: 0.9;
+    /* opacity: 0.9; */
 }
 
 #page1 #right img {
     width: 35vw;
+    /* top: 40%;
+    left: 25%;
+    position: absolute; */
     top: 40%;
-    left: 60%;
+    left: 50%;
     position: absolute;
+    transform: translate(-50%,-50%);
 
 }
 
 #page1 #right #pic {
     width: 10vw;
-    top: 85%;
-    left: 59%;
+    top: 65%;
+    left: 30%;
     position: absolute;
+    transform: translate(-50%,-50%);
 }
 
 #page2 h1 {
@@ -394,20 +403,20 @@ line-height: 8rem;
     margin-left: -11vw;
     font-size: 1.2rem;
 }
-#pag4{
+#page4{
     width: 100vw;
     height: 120vh;
     display: flex;
     padding: 0 2.5vw;
     background-color:#F4F1E8;
 }
-#pag4 #left{
+#page4 #left{
     width: 50%;
     height: 100%;
     display: flex;
     align-items: center;
 }
-#pag4 .laal{
+#page4 .laal{
     width: 22vw;
     height: 50vh;
     background-image: url(https://lagunitas.com/wp-content/uploads/2021/08/splat-red.png);
@@ -416,53 +425,49 @@ line-height: 8rem;
     padding: 10vh 12vh;
 
 }
-#pag4  #txt{
+#page4  #txt{
     color: #fff;
     text-align: center;
     font-size: 1.1rem;
     
 }
-#pag4  #txt h3{
+#page4  #txt h3{
     text-decoration: underline;
 
 }
-#pag4 #redone{
+#page4 #redone{
     margin-bottom: 60vh;
 }
-#pag4 #redtwo{
+#page4 #redtwo{
     margin-left: -5vh;
 }
-#pag4 #right{
+#page4 #right{
     width: 50%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#pag4 #black{
+#page4 #black{
     background-image: url(https://lagunitas.com/wp-content/themes/lagunitas/assets/images/splat-black.png);
     width: 25vw;
     height: 58vh;
     background-size: cover;
     background-position: center;
 }
-#pag4 #black  #txt{
+#page4 #black  #txt{
     color: #fff;
     text-align: center;
     font-size: 1rem;
 margin-left: 3vw;
 }
-#pag4  #bigbottle{
+#page4  #bigbottle{
     rotate: -15deg;
     margin-top: 35vw;
     margin-left: 1vw;
     position: absolute;
     width: 20%;
 }
-
-
-
-
 
 #page5{
     width: 100vw;

@@ -1,0 +1,29 @@
+@media (max-width: 500px) {
+#nav{
+    height:10vh;
+    justify-content: space-evenly;
+    gap: 1vw;
+}
+
+    #nav #icon {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    #nav #image img {
+        width: 100px;
+    }
+
+    #nav #button {
+        width: 20vw;
+        height: 40px;
+    }
+    #page1{
+        flex-direction: column;
+
+    }
+    #page1 #left{
+
+    
+    }
+}
